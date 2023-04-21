@@ -11,7 +11,7 @@ public class PagamentoTest {
 
     @BeforeEach
     public void setup() {
-        pagamento = new Pagamento();
+        pagamento = new Pagamento(200, true);
     }
 
     @Test

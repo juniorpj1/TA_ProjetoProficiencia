@@ -4,7 +4,7 @@ public class Pagamento {
     private double valorPago;
     private boolean realizado;
 
-    public Pagamento() {
+    public Pagamento(double valorPago, boolean realizado) {
         this.valorPago = 0.0;
         this.realizado = false;
     }
